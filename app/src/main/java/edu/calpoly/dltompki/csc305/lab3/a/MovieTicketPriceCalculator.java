@@ -12,10 +12,10 @@ import java.util.Objects;
  * be configurable.
  */
 public class MovieTicketPriceCalculator {
-  private static final int STANDARD_PRICE_CENTS = 2700;
-  private static final int MATINEE_PRICE_CENTS = 2400;
-  private static final int CHILD_DISCOUNT_CENTS = 300;
-  private static final int SENIOR_DISCOUNT_CENTS = 400;
+  public static final int STANDARD_PRICE_CENTS = 2700;
+  public static final int MATINEE_PRICE_CENTS = 2400;
+  public static final int CHILD_DISCOUNT_CENTS = 300;
+  public static final int SENIOR_DISCOUNT_CENTS = 400;
 
   private final LocalTime startMatineeTime;
   private final LocalTime endMatineeTime;
